@@ -1,0 +1,5 @@
+n , m = map(int,input().split())
+f = list(map(int,input().split()))
+f.sort()
+print (f)
+print (f[-n] - f[-1])

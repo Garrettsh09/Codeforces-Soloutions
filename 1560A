@@ -1,0 +1,13 @@
+t = int(input())
+
+for i in range(t):
+    count = 0
+    k = int(input())
+    for i in range(1666):
+        if (i % 3 == 0) or (i%10 == 3):
+            count += 0
+        else:
+            count += 1
+        if count == k:
+            print (i)
+           

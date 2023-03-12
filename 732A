@@ -1,0 +1,13 @@
+k, r= map(int,input().split())
+count = 1
+sum=k
+
+for i in range(1000):
+    if sum%10==0:
+        break
+    elif (sum-r)%10==0:
+        break
+    else:
+        sum += k
+        count += 1
+print (count)

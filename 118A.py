@@ -1,0 +1,12 @@
+x = str(input())
+def string_task(x):
+    a = x.lower()
+    b = a.replace('a', '')
+    c = b.replace('e', '')
+    d = c.replace('i', '')
+    e = d.replace('o', '')
+    f = e.replace('u', '')
+    g = f.replace('y', '')
+    h = g.replace('', '.')
+    return (h[:-1])
+print (string_task(x))

@@ -1,0 +1,11 @@
+import math
+t = int(input())
+
+for i in range(t):
+    a, b = map(int,input().split())
+    if b > a:
+        print (math.ceil(((b-a)/10)))
+    elif b < a:
+        print (math.ceil(((a-b)/10)))
+    else:
+        print (0)
